@@ -22,3 +22,18 @@ steps:
     serverAddress: 'https://aie-ub2204-30145.aie.ptsecurity.ru/'
     token: 'E+hdWHi4AL/7yPkWaoRzYce1WvQsbABQ'
     actionMode: 'scan'
+    settingsType: 'enterNew'
+    newSettings: |
+      "CustomParameters": null,
+          "UseSastRules": false,
+          "UseCustomPmRules": false,
+          "UseSecurityPolicies": false,
+          "SkipGitIgnoreFiles": false,
+          "UsePublicAnalysisMethod": false,
+          "DownloadDependencies": true,
+          "MailingProjectSettings": {
+              "Enabled": false,
+              "MailProfileName": null,
+              "EmailRecipients": []
+          }
+      }
