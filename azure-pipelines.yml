@@ -22,4 +22,17 @@ steps:
     serverAddress: 'https://aie-ub2204-30145.aie.ptsecurity.ru/'
     token: 'E+hdWHi4AL/7yPkWaoRzYce1WvQsbABQ'
     actionMode: 'scan'
-
+    settingsType: 'enterNew'
+    newSettings: |
+      {
+        "ProjectName": "The_project",
+        "ProgrammingLanguage": "Php",
+        "ScanAppType": "Php",
+        "ThreadCount": 1,
+        "Site": "http://localhost",
+        "IsDownloadDependencies": "true",
+        "IsUsePublicAnalysisMethod": "true",
+        "IsUseEntryAnalysisPoint": "true",
+        "ScanUnitTimeout": "800",
+        "UseSecurityPolicies": false
+      }
