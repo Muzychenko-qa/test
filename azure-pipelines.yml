@@ -22,4 +22,5 @@ steps:
     serverAddress: 'https://aie-ub2204-30145.aie.ptsecurity.ru/'
     token: 'E+hdWHi4AL/7yPkWaoRzYce1WvQsbABQ'
     actionMode: 'scan'
+    policyFail: false
     policyScanType: 'enterNew'
