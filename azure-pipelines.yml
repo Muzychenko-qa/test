@@ -17,3 +17,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: application-inspector-devops-plugin@1
+  inputs:
+    serverAddress: 'https://aie-ub2204-30145.aie.ptsecurity.ru/'
+    token: 'E+hdWHi4AL/7yPkWaoRzYce1WvQsbABQ'
+    actionMode: 'scan'
