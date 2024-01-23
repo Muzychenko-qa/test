@@ -25,7 +25,7 @@ steps:
     newSettings: |
       newSettings: |
             {
-                "ProjectName": "The_project",
+                "ProjectName": "The_new_project",
                 "ProgrammingLanguage": "Php",
                 "ScanModules": [
                     "VulnerableSourceCode",
